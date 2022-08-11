@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="devchallenges.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Modern interior</title>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="nav">
+        <div class="logo">This Interior</div>
+        <div class="link">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Collection</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="mobile-nav">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </div>
+      <div class="hero">
+        <div class="left">
+          <div class="title">Modern interior</div>
+          <div class="info">
+            A full-Service residential & commercial<br />
+            interior design and staging company offering<br />
+            professional organizing & eco-services.
+          </div>
+          <div class="more">Read more →</div>
+        </div>
+        <div class="right">
+          <div class="cover">
+            <img src="photo1.png" alt="Our Interior" />
+          </div>
+          <div class="comment">
+            <div class="det">
+              <div class="pic">
+                <img src="photo2.png" alt="Profile pci" />
+              </div>
+              <div class="name">
+                <h3>Aliza Webber</h3>
+                <h4>Interior designer</h4>
+              </div>
+            </div>
+            <div class="message">
+              Designed in 2020 by<br />
+              Aliza Webber
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <p>
+          created by J_Madushan -
+          <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>
+        </p>
+      </div>
+    </div>
+    <script>
+      $(".mobile-nav").click(function(){
+          $(".link").toggleClass("link-active");
+          $(".line").toggleClass("line-close");
+      })
+    </script>
+  </body>
+</html>
