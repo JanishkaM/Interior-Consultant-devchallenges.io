@@ -45,7 +45,7 @@ font-family: 'Montserrat', sans-serif;
 .nav {
     height: 10%;
     margin: 0px auto;
-    padding: 12px;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -180,7 +180,7 @@ font-family: 'Montserrat', sans-serif;
     height: 80%;
     max-width: 1200px;
     margin: 0px auto;
-    padding: 12px;
+    padding: 20px;
     max-width: var(--content-width);
 }
 .hero .left{
@@ -224,7 +224,7 @@ font-family: 'Montserrat', sans-serif;
     max-width: clamp(300px, 50px + 70vw, 600px);
     background-color: var(--bgcolor);
     color: #fff;
-    padding: 15px 30px;
+    padding: 20px 30px;
     float: right;
     margin-top: -100px;
     margin-right: 20px;
